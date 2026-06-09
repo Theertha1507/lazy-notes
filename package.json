@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "pdf-parse2": "^1.0.4"
+  }
+}
