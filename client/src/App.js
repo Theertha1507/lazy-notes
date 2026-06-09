@@ -19,7 +19,7 @@ function App() {
     formData.append('style', styleToUse);
 
     try {
-      const res = await fetch('http://localhost:5000/api/notes', {
+      const res = await fetch('https://lazy-notes-server.onrender.com/api/notes', {
         method: 'POST',
         body: formData,
       });
