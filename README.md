@@ -41,6 +41,7 @@
 ---
 
 ## 📁 Project Structure
+```
 pdf-notes/
 ├── client/                          # React frontend
 │   └── src/
@@ -55,7 +56,7 @@ pdf-notes/
     ├── index.js                    # Server entry point
     └── routes/
         └── notes.js               # PDF parsing + Groq API call
----
+```
 
 ## ⚙️ Setup & Installation
 
