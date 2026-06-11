@@ -2,8 +2,6 @@
 
 > *From PDF to perfect notes, instantly.*
 
-![lazy notes](https://lazy-notes.vercel.app)
-
 ---
 
 ## ✨ Features
@@ -44,19 +42,19 @@
 
 ## 📁 Project Structure
 pdf-notes/
-├── client/                  ← React frontend
+├── client/                          # React frontend
 │   └── src/
-│       ├── App.js           ← Main component, state management
-│       ├── index.css        ← Tailwind imports
+│       ├── App.js                  # Main component (state management)
+│       ├── index.css               # Tailwind imports
 │       └── pages/
-│           ├── UploadPage.jsx    ← PDF upload + style selection
-│           ├── LoadingPage.jsx   ← Cloud + pen animation
-│           └── NotesPage.jsx     ← Notebook UI + night mode
-└── server/                  ← Express backend
-├── index.js             ← Server entry point
-└── routes/
-└── notes.js         ← PDF parsing + Groq API call
-
+│           ├── UploadPage.jsx      # PDF upload + style selection
+│           ├── LoadingPage.jsx     # Cloud + pen animation
+│           └── NotesPage.jsx       # Notebook UI + night mode
+│
+└── server/                         # Express backend
+    ├── index.js                    # Server entry point
+    └── routes/
+        └── notes.js               # PDF parsing + Groq API call
 ---
 
 ## ⚙️ Setup & Installation
