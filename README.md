@@ -2,8 +2,6 @@
 
 > *From PDF to perfect notes, instantly.*
 
-A dreamy AI-powered study notes generator that turns any PDF into beautiful, handwritten-style notes. Built with a calm blue aesthetic, floating clouds, and a notebook UI that actually feels like your own notes.
-
 ![lazy notes](https://lazy-notes.vercel.app)
 
 ---
